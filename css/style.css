@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 70px;
+}
+
+.avatar {
+  width: 70px;
+}
