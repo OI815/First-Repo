@@ -1,11 +1,13 @@
 body {
   margin: 0;
+  background-color: red;
 }
 
 .header {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: space-between;
+  background:light rgba(243, 245, 243, 0.938) 
 }
 
 .logo {
@@ -14,4 +16,14 @@ body {
 
 .avatar {
   width: 70px;
+}
+
+.centre-item {
+  display: grid;
+  justify-items: centre;
+  justify-content:centre;
+}
+
+.centre-item-child {
+  width: 300px
 }
